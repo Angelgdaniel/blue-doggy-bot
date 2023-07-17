@@ -1,0 +1,23 @@
+
+/* CUERPO Y BARRA DE SCROLL*/
+
+body{
+  background-image: url(/src/client/images/light-blue-cosmic.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body::-webkit-scrollbar{
+  width: 13px;
+}
+
+body::-webkit-scrollbar-track{
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid rgb(0, 122, 204);
+}

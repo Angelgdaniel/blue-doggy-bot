@@ -1,74 +1,95 @@
 # Blue Doggy Bot
 
-Blue Doggy Bot es un chatbot de Telegram desarrollado utilizando ReactJS, Node.js y el módulo Telegraf. Proporciona una interfaz interactiva y conversacional para que los usuarios se mantengan actualizados sobre noticias de criptomonedas y temas relacionados.
+Blue Doggy Bot es un chatbot de Telegram que actualmente se encuentra en fase de desarrollo utilizando React.js y Node.js.
 
-## Instalación
+## Descripción
 
-Sigue estos pasos para instalar y configurar Blue Doggy Bot en tu entorno local:
+Nos complace presentarte una nueva forma de mantenerte actualizado en el emocionante mundo de las criptomonedas y blockchain. ¿Te gustaría estar al tanto de las últimas noticias, tendencias y actualizaciones relacionadas con esta tecnología revolucionaria? ¡Entonces estás en el lugar correcto!. Blue Doggy Bot es un chatbot de Telegram diseñado específicamente para brindarte información actualizada sobre blockchain y criptomonedas de manera rápida y sencilla. Nuestro objetivo es simplificar el acceso a noticias relevantes y ofrecerte una experiencia informativa en tiempo real.
 
-1. Clona este repositorio en tu máquina:
+## Configuración
 
-git clone https://github.com/tu-usuario/blue-doggy-bot.git
+Para utilizar Blue Doggy Bot, sigue los pasos a continuación:
 
-2. Navega hasta el directorio del proyecto:
+1. Crea un chatbot en Telegram utilizando BotFather para generar el token de tu bot.
 
-cd blue-doggy-bot
+2. Copia el token generado en el archivo de configuración del proyecto.
 
-3. Instala las dependencias utilizando npm o yarn:
+3. Instala las dependencias requeridas listadas en el archivo package.json.
 
-npm install
-yarn install
+4. Ejecuta el proyecto utilizando los comandos correspondientes.
 
-4. Configura las variables de entorno requeridas. Crea un archivo `.env` en la raíz del proyecto y define las siguientes variables:
+## Requisitos Previos
 
-TELEGRAM_BOT_TOKEN=tu-token-de-Telegram
+Asegúrate de tener instalado lo siguiente:
 
-5. Inicia la aplicación:
+- [Node.js](https://nodejs.org)
+- [npm](https://www.npmjs.com) o [Yarn](https://yarnpkg.com)
 
-npm start
-yarn start
+## Instalación de Dependencias
 
-6. El chatbot estará disponible en Telegram. ¡Disfruta de la experiencia interactiva con Blue Doggy Bot!
+Para instalar las dependencias, ejecuta el siguiente comando:
 
-## Funcionalidades
+`npm install`
 
-- [ ] **Conversaciones en lenguaje natural**: Blue Doggy Bot utiliza técnicas de procesamiento de lenguaje natural para mantener conversaciones amigables y contextualizadas con los usuarios.
+## Ejecución del Proyecto
 
-- [ ] **Comandos personalizados**: Ofrece una variedad de comandos personalizados para proporcionar información, realizar acciones o entretener a los usuarios.
+Para iniciar Blue Doggy Bot, utiliza el siguiente comando:
 
-- [ ] **Integración con APIs externas**: Blue Doggy Bot puede conectarse a otras APIs para obtener datos actualizados, como información del clima, noticias o resultados.
+`npm start`
+
+## Estructura del Proyecto
+
+La estructura del proyecto se organiza de la siguiente manera:
+
+- **src/** - Contiene los archivos de código fuente.
+
+- **src/server/** - Código del lado del servidor y configuración del bot.
+
+- **src/client/** - Código del lado del cliente para la interfaz del bot.
+
+## Uso
+
+Blue Doggy Bot está diseñado para proporcionar una experiencia de usuario fluida. Una vez que has agregado el bot a tus contactos de Telegram, puedes comenzar a interactuar con él enviando comandos y mensajes.
+
+## Comandos Disponibles
+
+- **/start** - Inicia la conversación con el bot y recibe un mensaje de bienvenida.
+
+- **/help** - Obtén información sobre la funcionalidad del bot y los comandos disponibles.
+
+- **/menu** - Abre el menú principal para acceder a diferentes opciones.
+
+- **/closemenu** - Cierra el menú.
+
+### Características
+
+Blue Doggy Bot ofrece las siguientes características:
+
+- Últimas noticias: Mantente actualizado con las últimas noticias y tendencias en el espacio de blockchain y criptomonedas.
+
+- Top 10 en crypto: Obtén información sobre las 10 principales criptomonedas según su capitalización de mercado.
+
+- Mini videojuegos: Juega mini videojuegos entretenidos relacionados con criptomonedas.
+
+- Anuncios crypto: Recibe anuncios y actualizaciones importantes relacionados con criptomonedas.
+
+- Referidos: Explora programas de referidos y gana recompensas.
+
+- Mi wallet: Accede a tu billetera y administra tus criptomonedas.
 
 ## Contribuciones
 
-¡Si deseas contribuir a Blue Doggy Bot, eres bienvenido! Sigue estos pasos:
-
-1. Haz un "fork" de este repositorio.
-
-2. Crea una rama con un nombre descriptivo para tus cambios:
-
-git checkout -b feature/nombre-de-la-funcionalidad
-
-3. Realiza tus modificaciones y mejoras.
-
-4. Asegúrate de que tus cambios sean compatibles y no rompan las funcionalidades existentes.
-
-5. Realiza commits claros y descriptivos:
-
-git commit -m "Añade nueva funcionalidad: descripción"
-
-6. Envía una solicitud de extracción (pull request) a la rama principal del repositorio original.
-
-7. Estaré encantado de revisar tu contribución y fusionarla si es apropiada.
+¡Las contribuciones son bienvenidas! Si tienes alguna sugerencia, mejora o corrección de errores, no dudes en abrir un issue o enviar un pull request.
 
 ## Licencia
 
 Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
-## Contacto
-
+### Contacto
+-------------
 Si tienes alguna pregunta, sugerencia o inquietud sobre Blue Doggy Bot, no dudes en contactarme:
 
-- Correo electrónico: tu-email@example.com
-- Telegram: @tu-nombre-de-usuario-en-Telegram
+- Correo electrónico: angeldaniel.dev@gmail.com
+- Telegram: @AngDany
 
----
+-------------

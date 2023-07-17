@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Astro';
+    src: url('../fonts/astro.woff') format('woff');
+}
+
+.container-fluid{
+    width: 95%;
+}
+
+header{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border: 5px double rgb(0, 122, 204);
+    border-radius: 3px;
+}
+
+header h1{
+    font-size: calc(15px + (42 - 15) * ((100vw - 400px) / (1400 - 400)));
+    font-family: 'Astro';
+    color: rgb(0, 122, 204);
+    letter-spacing: 2px;
+    margin-top: 1.5%;
+}

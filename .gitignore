@@ -1,5 +1,5 @@
 # Logs
-logs
+*.logs
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -42,6 +42,3 @@ dist-ssr
 
 #Archivos de tipo txt
 *.txt
-
-# Archivos con credenciales o llaves de API (incluir los nombres específicos de los archivos)
-# ejemplo.ext

@@ -1,0 +1,59 @@
+@font-face{
+    font-family: 'sharetechmonoregular';
+    src:  url('../fonts/ShareTechMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p{
+    color: white;
+    font-size: calc(10px + (18 - 10) * ((100vw - 400px) / (1400 - 400)));
+    font-family: 'sharetechmonoregular';
+    overflow-y: scroll;
+    height: 20.3rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+p::-webkit-scrollbar{
+    width: 13px;
+}
+
+p::-webkit-scrollbar-track{
+    background: black;
+}
+
+p::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 122, 204);
+}
+
+.heightModified{
+    height: 80px;
+}
+
+button{
+    background-color: rgba(0, 122, 204, 0.6);
+    border-radius: 0.5rem;
+    border: 3px solid black;
+    padding: 0.6rem;
+    color: white;
+    font-family: 'Astro';
+    font-size: calc(10px + (15 - 10) * ((100vw - 400px) / (1400 - 400)));
+    width: 15rem;
+}
+
+button:hover{
+    box-shadow: 0 5px 40px 0 rgb(0, 122, 204) inset,0 5px 40px 0 rgb(0, 122, 204), 0 5px 40px 0 rgb(0, 122, 204) inset;
+}
+
+button:focus{
+    border: 3px solid rgb(0, 122, 204);
+}
+
+i{
+    font-size: calc(10px + (25 - 10) * ((100vw - 400px) / (1400 - 400)));
+    color: white;
+    margin-right: 0.5rem;
+}

@@ -1,0 +1,25 @@
+.container{
+    margin-top: 3%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: auto;
+    padding: 10px;
+    border-radius: 3px;
+    border-image: url(/src/client/images/futuristic-border.png) 160 / 30px / 16px stretch;
+}
+
+main img {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 100%;
+    min-height: 423px;
+    max-height: 423px;
+    object-fit: cover;
+}
+
+.btn-container{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
