@@ -6,7 +6,8 @@ export const Content = ({ text }) => {
 
     const handleGoToTelegram = () => {
         // Lógica para redirigir al usuario a telegram
-        window.location.href = 'https://t.me/BlueDoggyBot';
+        // window.location.href = 'https://t.me/BlueDoggyBot';
+        console.log("You must go to the Telegram URL");
     };
 
     const contentStartBot = 'Iniciar chat en telegram para interactuar con Blue Doggy Bot';
