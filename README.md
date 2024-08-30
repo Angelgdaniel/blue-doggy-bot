@@ -2,6 +2,9 @@
 
 Blue Doggy Bot es un chatbot de Telegram que actualmente se encuentra en fase de desarrollo utilizando React.js y Node.js.
 
+![Blue Doggy Bot - Logo](./src/client/screenshots/screencapture-one.png)
+![Blue Doggy Bot - Interfaz](./src/client/screenshots/screencapture-two.png)
+
 ## Descripción
 
 Nos complace presentarte una nueva forma de mantenerte actualizado en el emocionante mundo de las criptomonedas y blockchain. ¿Te gustaría estar al tanto de las últimas noticias, tendencias y actualizaciones relacionadas con esta tecnología revolucionaria? ¡Entonces estás en el lugar correcto!. Blue Doggy Bot es un chatbot de Telegram diseñado específicamente para brindarte información actualizada sobre blockchain y criptomonedas de manera rápida y sencilla. Nuestro objetivo es simplificar el acceso a noticias relevantes y ofrecerte una experiencia informativa en tiempo real.
@@ -91,5 +94,3 @@ Si tienes alguna pregunta, sugerencia o inquietud sobre Blue Doggy Bot, no dudes
 
 - Correo electrónico: angeldaniel.dev@gmail.com
 - Telegram: @AngDany
-
--------------
