@@ -2,8 +2,7 @@
 
 Blue Doggy Bot es un chatbot de Telegram que actualmente se encuentra en fase de desarrollo utilizando React.js y Node.js.
 
-![Blue Doggy Bot - Logo](./src/client/screenshots/screencapture-one.png)
-![Blue Doggy Bot - Interfaz](./src/client/screenshots/screencapture-two.png)
+![Blue Doggy Bot](./src/client/screenshots/screencapture-one.png)
 
 ## Descripción
 
